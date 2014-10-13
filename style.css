@@ -1,0 +1,144 @@
+body {
+	margin:0;
+	background-color: #999999;
+	width: 100%;
+}
+
+@media screen 
+and (min-width : 320px) {
+
+.container {
+	background-color: #fff;
+	padding:10px 25px 0 25px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+	position: relative;
+}
+
+.price {
+	font-size: 7em;
+	margin-left: 10px;
+	}
+button {
+	min-width: 90px;
+	min-height: 30px;
+	font-size: 0.9em;
+	}
+.sign_up {
+	margin: 105px 0 0 160px;
+	width:90px;
+	position: absolute;
+	text-align: justify;
+	}
+.sign_up p {
+	font-size: 0.9em;
+	}
+.pricing_content {
+	margin-top: 30px;
+	}
+.currency {
+	font-size: 1em;
+	padding-top: 25px;
+	}
+.additional_info{
+	font-size: 1.3em;
+	}
+.info ul li {
+	font-size: 1em;
+	padding-top: 18px;
+	}
+}
+
+@media screen 
+and (min-width : 404px) {
+
+.container{
+	max-width: 404px;
+}
+.price {
+	font-size: 10em;
+	margin-left: 15px;
+	}
+button {
+	min-width: 135px;
+	min-height: 40px;
+	font-size: 1.2em;
+	}
+.sign_up {
+	margin: 105px 0 0 220px;
+	width:135px;
+	}
+.sign_up p {
+	font-size: 1em;
+	}
+.currency {
+	font-size: 1.6em;
+	padding-top: 30px;
+	}
+.pricing_content {
+	margin-top: 0px;
+	}
+.additional_info{
+	font-size: 1.8em;
+	}
+.info ul li {
+	font-size: 1.2em;
+	padding-top: 15px;
+	}
+}
+.container {
+	height: 600px;
+}
+.pricing {
+	height: 252px;
+	width: 100%;
+	background-color: #cccccc;
+	border-radius: 10px;
+	margin-bottom: 40px;
+}
+.pricing p {
+	color: #666666;
+}
+.pricing_content {
+	float: left;
+	padding-left: 20px;
+}
+.price {
+	font-weight: bold;
+}
+.currency {
+	position: absolute;
+}
+button {
+	border-radius: 5px;
+	border: none;
+	background: linear-gradient(#cccc66, #99cc00 50%, #669900 30%, #99cc00);
+	text-transform: capitalize;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.price, .additional_info, button {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.additional_info{
+	text-transform: capitalize;
+}
+.info {
+	height: 205px;
+	background-color: #6699cc;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+.info ul {
+	padding-left: 10px;
+}
+.info ul li {
+	list-style-type: none;
+	text-transform: capitalize;
+}
+.info ul li a {
+		color: #fff;
+		text-decoration: none;
+}
+
